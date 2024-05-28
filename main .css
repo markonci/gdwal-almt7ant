@@ -1,9 +1,15 @@
 table{
 background-image: url(img/423195663_386845687223114_1395920861923925257_n.jpg);
-margin:1% 0% 0% 23%;
-ma
-}
 
+background-size: cover;
+background-repeat: no-repeat;
+width: 1080px;
+
+}
+.content{
+  display: flex;
+  /* justify-content: space-around; */
+ }
 img {
   width: 160px;}
 
@@ -14,13 +20,13 @@ img:hover {
 
 th {
   text-align: center;
-  padding: 5px;
+  padding: 8px;
   font-weight: bolder;
   background-color: antiquewhite;
   text-shadow: 1px 0px 2px green;}
 
 th:hover {
-  font-size: 20px;
+  font-size: 23px;
   background-color: aqua;
   color: white;
   transition: 2s;}
@@ -35,3 +41,8 @@ td:hover {
   background-color: rgb(63, 109, 130);
   color: white;
   transition: 1s;}
+
+  .kk img{
+    width: 300px;
+    margin-top: 100px;
+  }
